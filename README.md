@@ -19,7 +19,7 @@ code .
 ```
 
 Open the Project with Live Server
-If you don't have Live Server installed, you can get it from the Visual Studio Code Marketplace.
+If you don't have Live Server installed, you can get it from the Visual Studio Code extensions.
 
 After installing, right-click on index.html (or the main HTML file) in your code editor and select "Open with Live Server."
 
