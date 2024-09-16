@@ -33,7 +33,7 @@
         <button class="text-lg border p-3 rounded-lg text-slate-50 bg-button-700 hover:bg-button-800">Know More</button>
       </section>
 
-      <section class="my-3">
+      <section>
         <div class="flex justify-center flex-wrap">
           <div class="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img class="rounded-md" src="./images/product.jpg" alt="Headphone">
@@ -68,9 +68,15 @@
         </div>
       </section>
     </main>
-    <footer>
-
+    <footer class="h-16 border-t py-4 text-center mt-7">
+     <p class="text-lg text-slate-900"> Siviglia's Marketplace &copy; <span class="year"></span></p>
+      <script>
+        const yearSpan = document.querySelector('.year');
+        const currentYear = new Date().getFullYear();
+        yearSpan.textContent = currentYear;
+      </script>
     </footer>
+
   </div>
 
 </body>
